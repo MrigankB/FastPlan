@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style
+        name="TextAppearance.AppCompat.Large.Day"
+        parent="Base.TextAppearance.AppCompat.Large">
+        <item name="android:textSize">30sp</item>
+        <item name="android:typeface">serif</item>
+    </style>
+    <style
+        name="TextAppearance.AppCompat.Large.Month"
+        parent="Base.TextAppearance.AppCompat.Large">
+        <item name="android:textSize">18sp</item>
+        <item name="android:typeface">serif</item>
+    </style>
+    <style
+        name="TextAppearance.AppCompat.Large.Year"
+        parent="Base.TextAppearance.AppCompat.Large">
+        <item name="android:textSize">25sp</item>
+        <item name="android:typeface">serif</item>
+    </style>
+    <style
+        name="TextAppearance.AppCompat.Large.Time"
+        parent="Base.TextAppearance.AppCompat.Large">
+        <item name="android:textSize">18sp</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+</resources>

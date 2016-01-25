@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.gankmobile.android.fastplan.MakePlanActivity">
+
+    <TextView
+        android:text="@string/write_data"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/write_data_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        style="@style/TextAppearance.AppCompat.Large.Year"/>
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/write_name_text"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:ellipsize="start"
+        android:hint="@string/write_name_hint" />
+
+    <TimePicker
+        android:layout_width="215dp"
+        android:layout_height="300dp"
+        android:id="@+id/time_picker"
+        android:layout_gravity="center"
+        android:timePickerMode="clock" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/write_data_button"
+        android:text="@string/write_button"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>

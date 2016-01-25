@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">FastPlan</string>
+
+    <string name="today_is_message">Today is</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="interested_button_label">Interested</string>
+    <string name="change_plan_button_label">Change Plans</string>
+    <string name="title_activity_make_plan">MakePlanActivity</string>
+
+    <string name="write_data">Make Your Plan</string>
+    <string name="write_name_hint">Write Your Name here</string>
+    <string name="write_time_hint">Write desired Time here</string>
+    <string name="write_button">Submit</string>
+    <string name="write_comment_hint">Write Any Comment Here (Optional)</string>
+
+    <string name="title_activity_change_plan">ChangePlanActivity</string>
+    <string name="change_plan_title">Change Your Plan</string>
+    <string name="remove_plan_button_label">Delete Plans</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_plan">PlanActivity</string>
+</resources>
