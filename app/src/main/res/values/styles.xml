@@ -14,7 +14,7 @@
     <style
         name="TextAppearance.AppCompat.Large.Month"
         parent="Base.TextAppearance.AppCompat.Large">
-        <item name="android:textSize">18sp</item>
+        <item name="android:textSize">20sp</item>
         <item name="android:typeface">serif</item>
     </style>
     <style

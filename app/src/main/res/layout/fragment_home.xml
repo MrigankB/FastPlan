@@ -19,37 +19,37 @@
         android:orientation="horizontal">
         <TextView
             android:layout_width="0dp"
-            android:layout_weight="0.2"
+            android:layout_weight="0.175"
             android:layout_height="wrap_content"
-            android:paddingLeft="30dp"
             android:id="@+id/date_day"
-            android:layout_gravity="center_vertical"
+            android:paddingLeft="18dp"
+            android:layout_gravity="center"
             style="@style/TextAppearance.AppCompat.Large.Day" />
         <ImageView
             android:layout_width="0dp"
-            android:layout_weight="0.2"
+            android:layout_weight="0.175"
             android:layout_height="wrap_content"
             android:id="@+id/line1"
-            android:layout_gravity="center_vertical" />
+            android:layout_gravity="center" />
         <TextView
             android:layout_width="0dp"
-            android:layout_weight="0.2"
+            android:layout_weight="0.3"
             android:layout_height="wrap_content"
+            android:paddingLeft="7dp"
             android:id="@+id/date_month"
-            android:layout_gravity="center_vertical"
+            android:layout_gravity="center"
             style="@style/TextAppearance.AppCompat.Large.Month"/>
         <ImageView
             android:layout_width="0dp"
-            android:layout_weight="0.2"
+            android:layout_weight="0.175"
             android:layout_height="wrap_content"
             android:id="@+id/line2"
-            android:layout_gravity="center_vertical" />
+            android:layout_gravity="center" />
         <TextView
             android:layout_width="0dp"
-            android:layout_weight="0.2"
+            android:layout_weight="0.175"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:paddingRight="5dp"
+            android:layout_gravity="center"
             android:id="@+id/date_year"
             style="@style/TextAppearance.AppCompat.Large.Year"/>
     </LinearLayout>
